@@ -1,0 +1,21 @@
+@use 'variaveis';
+
+.trailer {
+    padding: 5.6vw;
+    text-align: center;
+    
+    h2 {
+        font-family: variaveis.$fonteTheWitcher;
+        margin-bottom: 100px;
+    }
+    
+    &__content {
+        display: flex;
+        align-items: center;
+
+        p {
+            font-family: variaveis.$fonteSecundaria;
+            
+        }
+    }
+}

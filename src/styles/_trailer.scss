@@ -17,12 +17,17 @@
         gap: 24px;
 
         img {
-            max-width: 100%;
+            max-width: 450px;
+            width: 100%;
+        }
+
+        h3 {
+            font-family: variaveis.$fonteTheWitcher;
+            margin-bottom: 10px;
         }
 
         p {
             font-family: variaveis.$fonteSecundaria;
-            
         }
 
         &__video {

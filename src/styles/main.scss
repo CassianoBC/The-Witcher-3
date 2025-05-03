@@ -2,6 +2,7 @@
 @use 'variaveis';
 @use 'trailer';
 @use 'em-breve';
+@use 'dlcs';
 
 @font-face {
     font-family: Thewitcher;
@@ -23,11 +24,13 @@ body {
 @mixin text($fontSize: 16px) {
     font-size: $fontSize;
     color: variaveis.$corBranco;
+    font-family: variaveis.$fonteSecundaria;
 }
 
 @mixin title($fontSize: 40px) {
     @include text($fontSize);
     color: variaveis.$corBranco;
+    font-family: variaveis.$fonteTheWitcher;
 }
 
 .text {
@@ -39,7 +42,7 @@ body {
 }
 
 .text--big {
-    @include text(18px);
+    @include text(20px);
 
     @media (max-width: 768px) {
         @include text(15px);

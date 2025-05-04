@@ -61,6 +61,17 @@
                     
                 }
             }
+
+            &__price {
+                display: flex;
+                flex-direction: column;
+                margin-top: 10px;
+
+                del, strong {
+                    font-family: variaveis.$fonteSecundaria;
+                    font-weight: normal;
+                }
+            }
         }
     }
 

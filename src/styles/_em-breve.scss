@@ -25,6 +25,9 @@
         h3 {
             font-family: variaveis.$fonteTheWitcher;
             margin-bottom: 10px;
+            border-bottom: 5px solid variaveis.$corDoBotaoEmBreve;
+            width: 50%;
+            display: inline-block;
         }
 
         p {

@@ -22,8 +22,11 @@
         }
 
         h3 {
+            display: inline-block;
             font-family: variaveis.$fonteTheWitcher;
             margin-bottom: 10px;
+            border-bottom: 5px solid #B7362D;
+            width: 75%;
         }
 
         p {

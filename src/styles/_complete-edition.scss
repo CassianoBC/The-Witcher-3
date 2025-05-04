@@ -55,6 +55,8 @@
                 margin-top: 25px;
                 background-color: #DFA503;
                 color: variaveis.$corBranco;
+                display: flex;
+                align-content: flex-end;
 
                 &:hover {
                     background-color: lighten(#DFA503, 5%);

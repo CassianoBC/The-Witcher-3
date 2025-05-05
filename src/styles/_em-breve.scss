@@ -19,11 +19,15 @@
         img {
             max-width: 450px;
             width: 100%;
+            margin-bottom: 20px;
         }
 
         h3 {
             font-family: variaveis.$fonteTheWitcher;
             margin-bottom: 10px;
+            border-bottom: 5px solid variaveis.$corDoBotaoEmBreve;
+            width: 50%;
+            display: inline-block;
         }
 
         p {

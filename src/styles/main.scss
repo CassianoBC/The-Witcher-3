@@ -3,6 +3,7 @@
 @use 'trailer';
 @use 'em-breve';
 @use 'dlcs';
+@use 'complete-edition';
 
 @font-face {
     font-family: Thewitcher;
@@ -89,4 +90,5 @@ body {
     border-radius: 10px;
     text-transform: uppercase;
     cursor: pointer;
+    font-family: variaveis.$fonteTheWitcher;
 }

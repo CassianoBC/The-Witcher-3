@@ -4,6 +4,8 @@
 @use 'em-breve';
 @use 'dlcs';
 @use 'complete-edition';
+@use 'video-game';
+@use 'footer';
 
 @font-face {
     font-family: Thewitcher;
@@ -16,6 +18,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: variaveis.$fontePrincipal;
+    text-decoration: none;
 }
 
 body {

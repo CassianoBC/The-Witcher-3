@@ -8,6 +8,7 @@
     h2 {
         font-family: variaveis.$fonteTheWitcher;
         margin-bottom: 100px;
+        margin-top: 15px;
     }
     
     &__content {
@@ -15,6 +16,14 @@
         grid-template-columns: 1fr 1fr;
         align-items: center;
         gap: 24px;
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
+
+        @media (min-width: 769px) and (max-width: 1023px) {
+            grid-template-columns: 1fr;
+        }
 
         img {
             max-width: 450px;

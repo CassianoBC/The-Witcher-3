@@ -10,6 +10,20 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+
+    @media (max-width: 768px) {
+        background-image: url(../../dist/images/hero_tablet.jpg);
+        padding-top: calc(50vw + 25px);
+        min-height: 60vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: -55px;
+
+        .button {
+            padding: 8px 18px;
+            font-size: 24px;
+        }
+    }
     
     &__content {
         max-width: 640px;

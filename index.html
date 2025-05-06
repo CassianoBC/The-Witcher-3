@@ -11,7 +11,25 @@
     <link rel="shortcut icon" href="./dist/images/logos/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <!-- Header -->
+    <header class="header">
+        <div class="header__container">
+            <img class="header__logo" src="./dist/images/logos/logo_The_witcher_3.png" alt="Logo The Witcher 3">
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#trailer"><button class="button button--trailer">Trailer</button></a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#"><button class="button button--dispositivos">Dispositivos</button></a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#"><button class="button button--em-breve">Em Breve</button></a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#comprar"><button class="button button--comprar">Comprar</button></a>
+                </li>
+            </ul>
+        </div>
+    </header>
     <section class="hero">
         <div class="hero__content">
             <h1 class="title--small">
@@ -22,7 +40,7 @@
             </button>
         </div>
     </section>
-    <section class="trailer">
+    <section class="trailer" id="trailer">
         <h2 class="title">Assista a seguir o trailer do Jogo</h2>
         <div class="trailer__content">
             <div class="trailer__content__video">
@@ -60,7 +78,7 @@
             </div>
         </div>
     </section>
-    <section class="complete-edition">
+    <section class="complete-edition" id="comprar">
         <h2 class="title">Adquira a Complete Edition com desconto</h2>
         <div class="complete-edition__game">
             <img src="./dist/images/complete_edition.webp" alt="Capa do jogo The Witcher 3: Complete Edition">
@@ -128,11 +146,14 @@
                 </p>
                 <button class="button">Saiba Mais</button>
             </div>
+            <div class="em-breve__imagens">
+                <img src="./dist/images/Wallpapers_for_Polaris_61920x1080_EN.jpeg" alt="Wallpaper The Witcher IV 1">
+            </div>
+            <div class="em-breve__imagens">
+                <img src="./dist/images/Wallpapers_for_Polaris_71920x1080_EN.jpeg" alt="Wallpaper The Witcher IV 2">
+            </div>
         </div>
-        <div class="em-breve__imagens">
-            <img src="./dist/images/Wallpapers_for_Polaris_61920x1080_EN.jpeg" alt="Wallpaper The Witcher IV 1">
-            <img src="./dist/images/Wallpapers_for_Polaris_71920x1080_EN.jpeg" alt="Wallpaper The Witcher IV 2">
-        </div>
+        
     </section>
     <footer class="footer">
         <div class="container">
@@ -197,5 +218,6 @@
             </div>
         </div>
     </footer>
+    <script src="./dist/scripts/main.js"></script>
 </body>
 </html>

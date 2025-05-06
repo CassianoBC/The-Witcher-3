@@ -1,0 +1,118 @@
+@use 'variaveis';
+
+.footer {
+    text-align: center;
+    
+    .container {
+        // max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__list {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center ;
+            margin-bottom: 20px;
+    
+        &__item {
+            
+            a {
+                font-family: variaveis.$fontePrincipal;
+                color: variaveis.$corDoFooter;
+                text-decoration: none;
+                padding: 8px 16px;
+                display: block;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                font-weight: 400;
+
+                &:hover {
+                    color: #DFA503;
+                }
+            }
+        }
+    }
+    
+    &__social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 20px;
+
+
+        a {
+            text-decoration: none;
+
+            svg {
+
+                &:hover path {
+                    fill: #DFA503;
+                }
+            }
+        }
+    }
+
+    &__cookies {
+        display: inline-block;
+        max-width: 700px;
+        margin-bottom: calc(20px - 13px);
+
+        a {
+            &:hover {
+                color: #DFA503;
+            }
+        }
+
+        a, p {
+            font-family: variaveis.$fontePrincipal;
+            color: variaveis.$corDoFooter;
+            margin-bottom: 13px;
+        }
+
+    }
+
+
+    &__language-selector {
+        margin-bottom: 20px;
+
+        select {
+            border: none;
+            background-color: transparent;
+            color: variaveis.$corDoFooter;
+            font-size: 20px;
+            text-decoration-line: underline;
+            text-transform: uppercase;
+            text-underline-offset: 2px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        option {
+            background-color: variaveis.$corDeFundo;
+            color: variaveis.$corDoFooter;
+        }
+    }
+
+    &__logos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+
+    &__bottom-links {
+        margin-bottom: 50px;
+        a {
+            color: variaveis.$corDoFooter;
+            font-family: variaveis.$fontePrincipal;
+        }
+    }
+
+}
+    

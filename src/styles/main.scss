@@ -4,6 +4,9 @@
 @use 'em-breve';
 @use 'dlcs';
 @use 'complete-edition';
+@use 'video-game';
+@use 'footer';
+@use 'header';
 
 @font-face {
     font-family: Thewitcher;
@@ -16,6 +19,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: variaveis.$fontePrincipal;
+    text-decoration: none;
+    list-style: none;
 }
 
 body {
@@ -91,4 +96,50 @@ body {
     text-transform: uppercase;
     cursor: pointer;
     font-family: variaveis.$fonteTheWitcher;
+
+    &--trailer {
+        padding: 8px 16px;
+        font-size: 18px;
+        background-color: transparent;
+        color: #B7362D;
+        border: 2px solid #B7362D;
+
+        &:hover {
+            background-color: #B7362D;
+            color: variaveis.$corBranco;
+        }
+    }
+
+    &--dispositivos {
+        padding: 8px 16px;
+        font-size: 18px;
+        background-color: transparent;
+        color: #B7362D;
+        border: 2px solid #B7362D;
+
+        &:hover {
+            background-color: #B7362D;
+            color: variaveis.$corBranco;
+        }
+    }
+
+    &--em-breve {
+        padding: 8px 16px;
+        font-size: 18px;
+        background-color: transparent;
+        color: #B7362D;
+        border: 2px solid #B7362D;
+
+        &:hover {
+            background-color: #B7362D;
+            color: variaveis.$corBranco;
+        }
+    }
+
+    &--comprar {
+        padding: 8px 16px;
+        font-size: 18px;
+        background-color: #B7362D;
+        color: variaveis.$corBranco;
+    }
 }

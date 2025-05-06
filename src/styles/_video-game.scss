@@ -1,0 +1,28 @@
+@use 'variaveis';
+
+.video-games {
+    padding: 5.6vw;
+    text-align: center;
+
+    h2 {
+        margin-bottom: 100px;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-items: center; ;
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        &__item {
+            
+            img {
+                max-width: 250px;
+                width: 100%;
+            }
+        }
+    }
+}

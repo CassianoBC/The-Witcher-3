@@ -18,6 +18,10 @@
             gap: 24px;
             align-items: center;
 
+            @media (max-width: 768px) {
+                grid-template-columns: 1fr;
+            }
+
             &__info{
                 text-align: center;
 
